@@ -12,7 +12,7 @@ function App() {
 
   const showAlert = (message, type) => {
     setalert({ message:message, type:type });
-    setTimeout(() => setalert(null), 2000);
+    setTimeout(() => setalert(null), 1000);
   };
 
   const toggalmode = () => {
